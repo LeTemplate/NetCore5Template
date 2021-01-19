@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "minskiter",
+    "identity": "MinskiterTemplate.WebAPI",
+    "name":"Web API .Net core 5.0",
+    "shortName": "webapi5",
+    "sourceName": ".net5.0template",
+    "tags": {
+        "language": "c#",
+        "type": "project"
+    },
+    "preferNameDirectory":true,
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        "**/.vs/**",
+                        "**/.vscode/**",
+                        "**/[Bb]in/**",
+                        "**/[Oo]bj/**",
+                        ".template.config/**/*",
+                        "**/*.filelist",
+                        "**/*.user",
+                        "**/*.lock.json",
+                        "**/[Ll]og/**",
+                        "**/.git/**",
+                        "**/*.nuspec",
+                        "**/*.nupkg",
+                        "**/*.md"
+                    ]
+                }
+            ]
+        }
+    ]
+}
